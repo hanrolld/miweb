@@ -1,0 +1,20 @@
+h1 {
+    color:deeppink;
+}
+p {
+    color:black;
+    text-align: center;
+}
+.color {
+    border: 5px skyblue solid;
+    border-radius: 5px;
+    margin: 0px 15px;
+    padding: 10px 15 px;
+    font-family: lilian;
+    text-shadow: 3px 5px 5px pink ;
+    text-align: center;
+
+}
+.img {
+    align-items: center;
+}

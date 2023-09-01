@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"></meta>
+    <title>login</title>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link rel="stylesheet" href="stylelogin.css"></link>
+<script src="login.js"></script>
+</head>
+<body>
+<div class="container-form">
+    <div class="form-information">
+        <div class="form-info-kids">
+            <h2>iniciar sesion</h2>
+            <form>
+                <img src="img/hanrolld logo estrellitass.png">
+                <label for="">
+                    <i class='bx bxs-user' ></i>
+                    <input type="text" placeholder="correo electronico" id="username" required></imput>
+                </label>
+                <label for="">
+                    <i class='bx bxs-lock-alt' ></i>
+                    <input type="password" placeholder="password" id="password" required>
+                </label>
+                <input type="button" onclick="log();" value="log in"></input>
+            </form>
+            <p id="error-message" class="error-message"></p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

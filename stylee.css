@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    background-image: url(img/cinnamoroll.jpg);
+    background-size: cover;
+}
+body section article{
+    font-family: helvetica;
+}
+h1 {
+    font-family: lilian;
+}
+header {
+    background-color: skyblue;
+    color: #4E75F8;
+    padding: 3rem 2rem;
+}
+header h1{
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 3px 5px 5px #314CA4;
+}
+
+.conteiner{
+    width: 400px;
+    margin: 0 auto;
+}
+section article {
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+
+}
+
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 30);
+}
+
+section article h2, section article p{
+    margin: 1rem;
+}
+
+footer {
+    background-color: azure;
+    padding: 3rem;
+    color: black;
+}
+footer section {
+    float: right;
+}
+footer p{
+    margin: 0;
+}
+
+footer a{
+    transition: color 0.3 ease;
+    color:black;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: cornflowerblue;
+}
+
+.button {
+    background-color: steelblue;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0 2px 5px skyblue;
+    margin-bottom: 20px;
+}
+
+.link a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 8px;
+    text-align: right;
+}
+
+.link{
+    background-color: #f9f9f9;
+    display: none;
+}
+
+.despegable:hover .link{
+    display: inline;
+    text-align: right;
+}
+.despegable{
+    position: relative;
+}
+footer button{
+    background-color: steelblue;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0 2px 5px skyblue;
+    margin-bottom: 20px;
+}
