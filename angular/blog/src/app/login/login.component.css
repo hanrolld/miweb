@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    justify-content: center;
+}
+
+body {
+    margin-top: 75px;
+    display: flex;
+    min-width: 100vh;
+}
+
+
+.wrapper{
+    display: flex;
+    width: 420px;
+    background: transparent;
+    border-radius: 40px;
+    border: 2px solid #fff;
+    backdrop-filter: blur(20px);
+    color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 30px 40px;
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;}
+
+.input-box input::placeholder{
+        color: #fff;
+        text-align: center;}
+
+.input-box i{
+        margin-top: 20px;
+        position: relative;
+        right:20px ;
+        top: -110%;
+        font-size: 20px;}
+
+form img{
+        display: flex;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;}
+form label{
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        border-radius: 20px;
+        padding: 0 10px;
+        box-shadow: 0 2px 5px skyblue;
+        align-items: center;}
+form label input{
+        width: 100%;
+        padding: 10px;
+        background-color: aliceblue;
+        border: none;
+        outline: none;
+        border-radius: 20px;}
+    /*.signup input{
+        width: 100%;
+        padding: 10px;
+        background-color: aliceblue;
+        border: none;
+        outline: none;
+        border-radius: 20px; 
+    }*/
+form button {
+        width: 100%;
+        height: 50px;
+        background-color: steelblue;
+        color: #fff;
+        border-radius: 30px;
+        border: none;
+        padding: 10px 15px;
+        cursor: pointer;
+        margin-top: 10px;
+        box-shadow: 0 2px 5px skyblue;}
+form input[type="submit"]:hover{
+        background-color: darkblue;
+    }
+
+.register-link{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14.5px;
+}    
+.register-link a{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14.5px;
+    color: black;
+    font-weight: 600;
+}  
+.register-link a:hover{
+    text-decoration: underline;
+    color: #fff;
+}

@@ -1,0 +1,181 @@
+html{
+    font: helvetica;
+}
+
+body {
+    margin: 0;
+    font-family: helvetica;
+    padding-top: 130px; /* Ajusta el espacio para el header */
+    padding-bottom: 100px;
+}
+
+.welcoming{
+padding: 0%;
+height: 100%;
+width: 100px;
+}
+
+body section article{
+    font-family: helvetica;
+}
+h1 {
+    font-family: lilian;
+}
+header {
+    background-color: skyblue;
+    color: #4E75F8;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+#main-header {
+    background-color: skyblue; /* Color de fondo por defecto */
+    transition: background-color 0.3s ease; /* Transición suave */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que el encabezado esté por encima de otros elementos */
+}
+
+.header-scroll {
+    background-color: white; /* Nuevo color de fondo al hacer scroll */
+}
+header h1{
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 3px 5px 5px #314CA4;
+}
+
+/*.menu{
+    background-color: steelblue;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px skyblue;
+}*/
+
+
+.conteiner{
+    padding-top: 130px; /* Ajusta el espacio para el header */
+    padding-bottom: 100px;
+    padding: 20px;
+}
+section article {
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+
+}
+
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 30);
+}
+
+section article h2, section article p{
+    margin: 1rem;
+}
+
+footer {
+    background-color: azure;
+    padding: 20px;
+    color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+footer section {
+    float: right;
+}
+footer p{
+    margin: 0;
+}
+
+footer a{
+    transition: color 0.3 ease;
+    color:black;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: cornflowerblue;
+}
+
+.button {
+    background-color: steelblue;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 0px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0 2px 5px skyblue;
+    margin-bottom: 20px;
+}
+
+.link a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 8px;
+    text-align: right;
+}
+
+.link{
+    background-color: #f9f9f9;
+    display: none;
+}
+
+.despegable:hover .link{
+    display: inline;
+    text-align: right;
+}
+.despegable{
+    position: relative;
+}
+footer button{
+    background-color: steelblue;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    bottom: 0;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px skyblue;
+    position: absolute;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+footer p {
+    text-align: center;
+}
